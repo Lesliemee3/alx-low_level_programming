@@ -14,6 +14,9 @@ if (n < 0 || n > 15)
 while (i <= n)
 
 {
+	for (i = 0; i <= n; i++)
+
+	{
 	for (j = 0; j <= n; j++)
 
 	{
@@ -37,5 +40,6 @@ while (i <= n)
 	}
 	_putchar('\n');
 	i++;
+}
 }
 }
